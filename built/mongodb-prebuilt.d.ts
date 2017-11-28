@@ -1,4 +1,4 @@
-import { MongoDBDownload } from 'mongodb-download';
+import { MongoDBDownload } from 'mongodb-download-https';
 export declare class MongoDBPrebuilt {
     mongoDBDownload: MongoDBDownload;
     private debug;
