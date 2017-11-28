@@ -4,7 +4,7 @@ var Debug = require('debug');
 var Glob = require("glob").Glob;
 var path_1 = require("path");
 var os_1 = require("os");
-var mongodb_download_1 = require("mongodb-download");
+var mongodb_download_1 = require("mongodb-download-https");
 var MongoDBPrebuilt = (function () {
     function MongoDBPrebuilt(mongoDBDownload) {
         this.mongoDBDownload = mongoDBDownload;
